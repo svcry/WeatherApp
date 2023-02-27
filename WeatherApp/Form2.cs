@@ -40,7 +40,7 @@ namespace WeatherApp
         }
         private async void button1_Click(object sender, EventArgs e)
         {
-            WebRequest request = WebRequest.Create($"http://api.openweathermap.org/data/2.5/weather?q={this.getText()}&APPID=358cd6d6a71b8349f5ab7fcee148c023&units=metric&lang=ru");
+            WebRequest request = WebRequest.Create($"http://api.openweathermap.org/data/2.5/weather?q={this.getText()}&APPID=MyAPI&units=metric&lang=ru");
 
             request.Method = "POST";
 
